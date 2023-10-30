@@ -1,8 +1,8 @@
 #include <fstream>
 #define LGMAX 1001
 using namespace std;
-ifstream fin("rez.in");
-ofstream fout("rez.out");
+ifstream fin("reziston.in");
+ofstream fout("reziston.out");
 // variabile globale
 char s[LGMAX];
 int lg, poz;
@@ -62,3 +62,4 @@ int evalCircuitSerie()
 	}
 	return suma;
 }
+// scor 100
